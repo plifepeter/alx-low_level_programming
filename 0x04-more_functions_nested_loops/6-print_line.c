@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_line - function that draws line
- * @n: find the variable of n
+ * @n: find the variable n
  * Return: should return a value
  */
 void print_line(int n)
