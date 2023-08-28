@@ -13,19 +13,15 @@ int main(void)
 	for (k = 1; k <= 100; k++)
 	{
 		if (k % 15 == 0)
-
 			printf("FizzBuzz");
 
-		if (k % 3 == 0)
-
+		else if (k % 3 == 0)
 			printf("Fizz");
 
-		if (k % 5 == 0)
-
+		else if (k % 5 == 0)
 			printf("Buzz");
 
 		else
-
 			printf("%i", k);
 
 		if (k < 100)
